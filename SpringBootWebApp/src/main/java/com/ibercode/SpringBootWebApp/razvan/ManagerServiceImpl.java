@@ -14,4 +14,10 @@ public class ManagerServiceImpl implements ManagerService{
 		return null;
 	}
 
+	@Override
+	public void sayHello() {
+	    // TODO Auto-generated method stub
+	    
+	}
+
 }

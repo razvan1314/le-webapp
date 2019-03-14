@@ -7,4 +7,6 @@ import com.ibercode.SpringBootWebApp.model.Manager;
 public interface ManagerService {
 
 	List<Manager> getAllManagers();
+	
+	void sayHello();
 }
