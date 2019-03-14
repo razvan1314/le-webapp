@@ -16,6 +16,19 @@ public class Manager extends Person{
 	super();
 	this.active = active;
     }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    @Override
+    public String toString() {
+	return "Manager [active=" + active + "]";
+    }
     
     
 }
