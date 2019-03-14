@@ -1,5 +1,8 @@
 package com.ibercode.SpringBootWebApp.iagoba;
 
-public interface PersonServiceInterfaceImp {
+import org.springframework.stereotype.Service;
+
+@Service
+public interface PersonServiceInterfaceImp extends PersonServiceInterface{
 
 }
