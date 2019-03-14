@@ -11,5 +11,4 @@ public class ManagerServiceImpl implements ManagerService{
 		return null;
 	}
 
-	
 }
